@@ -1,0 +1,192 @@
+.main-block {
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+}
+
+.main-block__body {
+  height: unset;
+}
+
+.main-block__heading {
+  margin-bottom: 30px;
+}
+
+.main-block__title {
+  color: #000;
+}
+
+.main-block__title:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.main-block__image {
+  padding-bottom: 39%;
+}
+
+.main-block__image img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.custom-block {
+  border-bottom: 1px solid #A3A3A3;
+  padding: 40px 0 80px;
+}
+
+.custom-block__subject {
+  background-color: #395690;
+  padding: 40px;
+  height: 100%;
+}
+
+.custom-block__subject p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 34px;
+}
+
+.custom-block__list li {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 19px;
+  background: url("../img/icons/check-mark-white.svg") 0 5px no-repeat;
+}
+
+.custom-block__list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.custom-block__content:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.custom-block__title:not(:last-child) {
+  margin-bottom: 27px;
+}
+
+.custom-block__text:not(:last-child) {
+  margin-bottom: 19px;
+}
+
+.custom-block__quote {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 22px;
+}
+
+.custom-block__quote-author {
+  font-weight: 600;
+  font-size: 20px;
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
+  align-self: end;
+}
+
+#custom-block-1 .custom-block__title {
+  text-align: center;
+}
+
+#custom-block-3 {
+  background: url(../img/blog-page/blog-bg.svg) 0% 5%/40% no-repeat;
+}
+
+#custom-block-3 .custom-block__two-col .grid__item {
+  padding: 0;
+}
+
+#custom-block-3 .custom-block__two-col .custom-block__quote-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-left: 30px;
+  border-left: 5px solid #000;
+}
+
+#custom-block-4 .custom-block__two-col .grid__item {
+  padding: 0;
+}
+
+#custom-block-4 .custom-block__two-col .grid__item:not(:first-child) {
+  padding-left: 30px;
+}
+
+@media (min-width: 767.98px) {
+  .main-block {
+    padding-right: 30px;
+    padding: 80px 0;
+  }
+
+  #custom-block-3 {
+    background: url(../img/blog-page/blog-bg.svg) 0% 20% no-repeat;
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .main-block__title:not(:last-child) {
+    margin-bottom: 14px;
+  }
+
+  .main-block__image {
+    padding-bottom: 66%;
+  }
+
+  .custom-block {
+    padding: 30px 0;
+  }
+
+  .custom-block__subject {
+    padding: 30px 15px 30px;
+    margin: 0 -15px;
+  }
+
+  .custom-block__subject p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .custom-block__list li {
+    font-size: 16px;
+    padding-left: 22px;
+  }
+
+  .custom-block__list li:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .custom-block__content:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .custom-block__content {
+    margin-bottom: 40px;
+  }
+
+  .custom-block__quote {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .custom-block__quote-author {
+    font-size: 16px;
+  }
+
+  #custom-block-3 .custom-block__two-col .custom-block__quote-wrapper {
+    margin-left: 0;
+    padding-left: 18px;
+    margin-top: 20px;
+  }
+
+  #custom-block-4 .custom-block__two-col .grid__item:not(:first-child) {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+}
